@@ -359,7 +359,7 @@ namespace Duplicati.UnitTest
                 		continue;
                 		
                 	Log.WriteMessage(string.Format("Found left-over temp file: {0}", s.Substring(tempdir.Length)), LogMessageType.Warning);
-                	Console.WriteLine("Found left-over temp file: {0} -> {1}", s.Substring(tempdir.Length), TempFile.GetStackTraceForTempFile(System.IO.Path.GetFileName(s)));
+                	//Console.WriteLine("Found left-over temp file: {0} -> {1}", s.Substring(tempdir.Length), TempFile.GetStackTraceForTempFile(System.IO.Path.GetFileName(s)));
                 }
                 
                 foreach(string s in Utility.EnumerateFolders(tempdir))
