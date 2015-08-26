@@ -121,7 +121,7 @@ $(document).ready(function() {
     }
 
     APP_DATA.plugins.backend['onedrive'] = {
-        PLUGIN_LOGIN_LINK: 'https://duplicati-oauth-handler.appspot.com/',
+        PLUGIN_LOGIN_LINK: 'https://oauth-dot-lightstone-01.appspot.com/',
 
         hideserverandport: true,
         hideusernameandpassword: true,
