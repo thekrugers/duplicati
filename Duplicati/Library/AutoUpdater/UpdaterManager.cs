@@ -195,6 +195,8 @@ namespace Duplicati.Library.AutoUpdater
         public static UpdateInfo CheckForUpdate()
         {
 
+            return null;
+
             foreach(var url in MANIFEST_URLS)
             {
                 try
